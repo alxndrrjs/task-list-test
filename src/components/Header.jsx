@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <header className='bg-zinc-500'>
-        <h1 className='text-2xl text-center'>Lista de tareas</h1>
+    <header className=''>
+        <h1 className='text-4xl font-bold text-center'>Lista de tareas</h1>
     </header>
   )
 }

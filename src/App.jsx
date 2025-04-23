@@ -29,11 +29,11 @@ function App() {
   }
 
   return (
-    <>
+    <div className='bg-purple-100 h-dvh flex flex-col items-center justify-center'>
       <Header />
       <TodoForm onAdd={handleAddTodo} />
       <TodoList todos={todos} onDelete={handleDeleteTodo} />
-    </>
+    </div>
   )
 }
 
